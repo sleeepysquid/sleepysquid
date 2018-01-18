@@ -1,8 +1,17 @@
 import React from "react"
 import Helmet from "react-helmet"
+import styled from "styled-components"
 
+import Navigation from "../components/navigation"
+import Container from "../components/container"
 import backgroundUrl from "../assets/sleepysquid_banner.png"
 
+const GradientBackground = styled.div`
+    background: linear-gradient(#263774, #224F90);
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    height: 100vh;
+    line-height: 43px;
+`;
 
 const divStyle = {
     height: '100vh',
@@ -21,10 +30,19 @@ export default ({ children }) => (
           <meta name="og:site_name" content="SleepySquid" />
           <html lang="en" />
         </Helmet>
-        {/* <div style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
-            {children()}
+        {/* <div style={divStyle}>
         </div> */}
-        <div style={divStyle}>
-        </div>
+        <GradientBackground>
+            <Helmet defaultTitle={`SleepySquid`} titleTemplate={`%s | SleepySquid`}>
+                <meta name="twitter:site" content="@lawmbass" />
+                <meta name="og:type" content="website" />
+                <meta name="og:site_name" content="SleepySquid" />
+            <html lang="en" />
+            </Helmet>
+            <Navigation />
+            <Container>
+                {children()}
+            </Container>
+        </GradientBackground>
     </div>
 );
