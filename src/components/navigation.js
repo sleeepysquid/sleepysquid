@@ -18,7 +18,7 @@ const Navbar = styled.div`
 const NavItemList = styled.ul`
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 10px;
     list-style: none;
     font-size: 20px;
     li > a {
@@ -28,11 +28,11 @@ const NavItemList = styled.ul`
 
 const NavItem = ({ linkTo, children }) => (
     <li style={{ 
-        display: `inline-block`, 
+        display: `inline-block`,
         margin: 20,
         
          }}>
-        <Link to={linkTo}>
+        <Link to={linkTo} style={{ textDecoration: `none`}}>
             {children}
         </Link>
     </li>
@@ -56,7 +56,7 @@ export default () => {
                 <NavItem>Services</NavItem>
                 <NavItem>Tutorials</NavItem>
                 <NavItem>Blog</NavItem>
-                <li style={{display: `inline-block`, margin: 20}}>
+                <li style={{display: `inline-block`, margin: `20px`}}>
                     <a href="https://github.com/sleeepysquid" title="GitHub">
                         <GithubIcon style={{ verticalAlign: `center` }} />
                     </a>
