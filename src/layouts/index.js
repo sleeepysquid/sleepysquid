@@ -11,6 +11,14 @@ const GradientBackground = styled.div`
     height: 100vh;
 `;
 
+const divStyle = {
+    height: '600px',
+    backgroundImage: 'url(' + backgroundUrl + ')',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    zIndex: 999
+};
+
 export default ({ children }) => (
     <div>
         <Helmet defaultTitle={`SleepySquid`} titleTemplate={`%s | SleepySquid`}>
@@ -30,6 +38,8 @@ export default ({ children }) => (
             <MainSection>
                 {children()}
             </MainSection>
+            <div style={divStyle}>
+            </div>
         </GradientBackground>
     </div>
 );
