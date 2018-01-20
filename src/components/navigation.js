@@ -52,10 +52,9 @@ export default () => {
                             style={{ height: rhythm(5), width: rhythm(10)}} />
                     </Link>
                 </li>
-                <NavItem>Home</NavItem>
-                <NavItem>Services</NavItem>
-                <NavItem>Tutorials</NavItem>
-                <NavItem>Blog</NavItem>
+                <NavItem linkTo="/services">Services</NavItem>
+                <NavItem linkTo="/tutorials">Tutorials</NavItem>
+                <NavItem linkTo="/blog">Blog</NavItem>
                 <li style={{display: `inline-block`, margin: `20px`}}>
                     <a href="https://github.com/sleeepysquid" title="GitHub">
                         <GithubIcon style={{ verticalAlign: `center` }} />

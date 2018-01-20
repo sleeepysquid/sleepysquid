@@ -8,9 +8,7 @@ import backgroundUrl from "../assets/sleepysquid_banner.png"
 
 const GradientBackground = styled.div`
     background: linear-gradient(#263774, #224F90);
-    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     height: 100vh;
-    line-height: 43px;
 `;
 
 export default ({ children }) => (

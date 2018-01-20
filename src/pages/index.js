@@ -1,38 +1,28 @@
 import React from "react"
 import styled from "styled-components"
 
+// Creating a Title component that'll render a <h1> tag with some styles
+const Title = styled.h1`
+  font-size: 67px;
+`
+
+const Text = styled.p`
+  font-size: 32px;
+`
+
 const Motto = styled.section`
     text-align: center;
     color: #fff;
-    h1 {
-      font-size: 67px;
-      color: #fff;
-    }
-    p {
-      font-size: 32px;
-    }
-`;
-
-// const CallToAction = styled.button`
-//     font-size: 35px;
-//     font-weight: bold;
-//     background-color: #F9BD5D;
-//     color: #2A3136;
-//     border-color: #382323;
-//     border-radius: 10px;
-//     padding: 10px;
-// `;
+`
 
 export default () => (
   <div>
     <Motto>
-      <h1>Establish your presence</h1>
-      <p>
-        In today's modern society having an online presence is essential to 
-        advancing the reach of your business and brand.
-      </p>
-      {/* <CallToAction>Let's Talk</CallToAction> */}
-      
+      <Title>Establish your presence</Title>
+      <Text>
+        In today's modern society having an online presence is essential
+         to advancing the reach of your business and brand.
+      </Text>
     </Motto>
   </div>
 )
