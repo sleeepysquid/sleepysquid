@@ -13,6 +13,7 @@ const Text = styled.p`
 const Motto = styled.section`
     text-align: center;
     color: #fff;
+    height: 600px
 `
 
 export default () => (

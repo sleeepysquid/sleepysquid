@@ -8,7 +8,7 @@ import backgroundUrl from "../assets/sleepysquid_banner.png"
 
 const GradientBackground = styled.div`
     background: linear-gradient(#263774, #224F90);
-    height: 100vh;
+    height: 100%;
 `;
 
 const divStyle = {
