@@ -4,7 +4,7 @@ import { Flex, Box } from "grid-styled"
 
 export default ({ children }) => (
   <Flex>
-    <Box width={1/2} mx='auto' my='5em'>
+    <Box width={3/4} mx='auto'>
       {children}
     </Box>
   </Flex>

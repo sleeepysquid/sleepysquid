@@ -2,25 +2,27 @@ import Typography from "typography";
 // Used to create Global styles
 
 const typography = new Typography({ 
-    baseFontSize: "18px",
+    baseFontSize: "16px",
     baseLineHeight: 2,
     headerFontFamily: [
+        "Raleway",
+        "sans-serif",
         "Segoe UI", 
         "Frutiger", 
         "Frutiger Linotype", 
         "Dejavu Sans",
         "Helvetica Neue",
-        "Arial",
-        "sans-serif"
+        "Arial"
     ],
     bodyFontFamily: [
+        "Raleway",
+        "sans-serif",
         "Segoe UI", 
         "Frutiger", 
         "Frutiger Linotype", 
         "Dejavu Sans",
         "Helvetica Neue",
-        "Arial",
-        "sans-serif"
+        "Arial"
     ],
 });
 
