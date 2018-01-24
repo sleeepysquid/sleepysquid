@@ -8,7 +8,6 @@ import typography, { rhythm, scale } from "../utils/typography"
 
 const Navbar = styled.div`
     height: 75px;
-    max-width: 1400px;
     margin: auto;
     z-index: 1;
     left: 0px;
@@ -17,6 +16,7 @@ const Navbar = styled.div`
 
 const NavItemList = styled.ul`
     display: flex;
+    height: 100%;
     justify-content: center;
     padding: 10px;
     list-style: none;
@@ -49,7 +49,7 @@ export default () => {
                         <img 
                             src={logo} 
                             alt="" 
-                            style={{ height: rhythm(5), width: rhythm(10)}} />
+                            style={{ height: `100%`, width: rhythm(10)}} />
                     </Link>
                 </li>
                 {/* <NavItem linkTo="/services">Services</NavItem>
