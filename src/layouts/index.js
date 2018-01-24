@@ -45,11 +45,11 @@ const BorderedBox = styled.div`
 `
 const Title = styled.h1`
     margin: 0;
-    font-size: 48px;
+    font-size: 2em;
     font-weight: bold;
     line-height: 1.5;
-    padding: 10px;
-    color: #003648;
+    padding: 20px;
+    color: #224F90;
 `
 
 const Menu = styled
@@ -76,10 +76,10 @@ export default ({ children }) => (
                 <Title>What We Do At SleepySquid</Title>
                 <Flex wrap align='center' justify='center' width={1}>
                 
-                    <Box p={4}>
+                    <Box p={2}>
                         <BorderedBox>
                             <img src={webDev} alt="" style={{height: `auto`, maxWidth: `400px`, width: `100%`}} />
-                            <h2 style={{color: `#224F90`}}>Web Development</h2>
+                            <h2>Web Development</h2>
                             <p>
                                 Here at SleepySquid we take web development seriously. 
                                 We specialize in everything from data rich web applications, 
@@ -94,7 +94,7 @@ export default ({ children }) => (
                     <Box p={2}>
                         <BorderedBox>
                             <img src={mobileDev} alt="" style={{height: `auto`, maxWidth: `400px`, width: `100%`}} />
-                            <h2 style={{color: `#224F90`}}>Mobile Development</h2>
+                            <h2>Mobile Development</h2>
                             <p>
                                 Many people believe mobile development means simply creating an app. 
                                 In reality, its about creating a great user experience within a limited 
