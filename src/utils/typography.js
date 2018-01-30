@@ -5,7 +5,7 @@ const typography = new Typography({
     baseFontSize: "16px",
     baseLineHeight: 2,
     headerFontFamily: [
-        "Raleway",
+        "bree",
         "sans-serif",
         "Segoe UI", 
         "Frutiger", 
@@ -15,7 +15,7 @@ const typography = new Typography({
         "Arial"
     ],
     bodyFontFamily: [
-        "Raleway",
+        "Futura",
         "sans-serif",
         "Segoe UI", 
         "Frutiger", 

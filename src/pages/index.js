@@ -23,7 +23,7 @@ const Motto = styled.section`
 export default () => (
   <div style={{minHeight: `500px`, display: `flex`, justifyContent: `center`, alignItems: `center`}}>
     <Motto>
-      <Title>Establish Your Presence</Title>
+      <Title>ESTABLISH YOUR PRESENCE</Title>
       <Text>
         In today's society having an online presence is essential
          to advancing the reach of your business and brand.
