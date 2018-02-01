@@ -3,7 +3,7 @@ import styled from "styled-components"
 import Link from "gatsby-link"
 
 import GithubIcon from "react-icons/lib/go/mark-github"
-import logo from "../assets/sleepysquid_white.svg"
+import logo from "../assets/sleepysquid_blue.svg"
 import typography, { rhythm, scale } from "../utils/typography"
 
 const Navbar = styled.div`
@@ -22,7 +22,7 @@ const NavItemList = styled.ul`
     list-style: none;
     font-size: 20px;
     li > a {
-        color: #fff;
+        color: #224F90;
     }
 `;
 
@@ -55,11 +55,11 @@ export default () => {
                 {/* <NavItem linkTo="/services">Services</NavItem>
                 <NavItem linkTo="/tutorials">Tutorials</NavItem>
                 <NavItem linkTo="/blog">Blog</NavItem> */}
-                <li style={{display: `inline-block`, margin: `20px`}}>
+                {/* <li style={{display: `inline-block`, margin: `20px`}}>
                     <a href="https://github.com/sleeepysquid" title="GitHub">
                         <GithubIcon style={{ verticalAlign: `center` }} />
                     </a>
-                </li>
+                </li> */}
             </NavItemList>
         </Navbar>
     )
