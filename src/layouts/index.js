@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import styled, { css } from "styled-components"
 import { Flex, Box } from "grid-styled"
-import { media } from "../utils/style-utils"
+import { media } from "../utils/media"
 
 import Navigation from "../components/navigation"
 import MainSection from "../components/main-section"
