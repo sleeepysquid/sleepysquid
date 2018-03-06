@@ -11,6 +11,7 @@ import mobileDev from "../assets/mobile_dev.png"
 import clientArkOfSafety from "../assets/client_ark_of_safety.png"
 import clientKeyFoundry from "../assets/client_keyfoundry.png"
 import clientImagineCreativeWorks from "../assets/client_icw.png"
+import clientRealLifeInvestors from  "../assets/real_life_investors.png";
 
 const GradientBackground = styled.div`
     background: linear-gradient(#263774, #224F90);
@@ -148,19 +149,24 @@ export default () => (
         <Section style={{background: 'none'}}>
             <Title>Clients We've Worked With</Title>
             <Flex p={1}>
-                <Box width={1/3}>
+                <Box width={1/4}>
                     <a href="http://www.arkofsafetychristianchurch.com/" target="_blank">
                         <img src={clientArkOfSafety} alt="" style={{height: `auto`, maxWidth: `250px`, width: `100%`}} />
                     </a>
                 </Box>
-                <Box width={1/3}>
+                <Box width={1/4}>
                     <a href="http://keyfoundryllc.com/" target="_blank">
                         <img src={clientKeyFoundry} alt="" style={{height: `auto`, maxWidth: `250px`, width: `100%`}} />
                     </a>
                 </Box>
-                <Box width={1/3}>
+                <Box width={1/4}>
                     <a href="http://www.icwks.com/" target="_blank">
                         <img src={clientImagineCreativeWorks} alt="" style={{height: `auto`, maxWidth: `250px`, width: `100%`}} />
+                    </a>
+                </Box>
+                <Box width={1/4}>
+                    <a href="#" target="_blank">
+                        <img src={clientRealLifeInvestors} alt="" style={{height: `auto`, maxWidth: `250px`, width: `100%`}} />
                     </a>
                 </Box>
             </Flex>
