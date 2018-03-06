@@ -12,6 +12,7 @@ const Navbar = styled.div`
     z-index: 1;
     left: 0px;
     right: 0px;
+    background: transparent;
 `;
 
 const NavItemList = styled.ul`
