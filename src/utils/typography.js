@@ -4,26 +4,8 @@ import Typography from "typography";
 const typography = new Typography({ 
     baseFontSize: "16px",
     baseLineHeight: 2,
-    headerFontFamily: [
-        "bree",
-        "sans-serif",
-        "Segoe UI", 
-        "Frutiger", 
-        "Frutiger Linotype", 
-        "Dejavu Sans",
-        "Helvetica Neue",
-        "Arial"
-    ],
-    bodyFontFamily: [
-        "Futura",
-        "sans-serif",
-        "Segoe UI", 
-        "Frutiger", 
-        "Frutiger Linotype", 
-        "Dejavu Sans",
-        "Helvetica Neue",
-        "Arial"
-    ],
+    headerFontFamily: ['bree', 'sans-serif', 'Segoe UI', 'Helvetica', 'Arial'],
+    bodyFontFamily: ['futura-pt', 'sans-serif', 'Georgia', 'serif'],
 });
 
 export default typography;
