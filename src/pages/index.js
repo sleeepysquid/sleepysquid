@@ -95,6 +95,7 @@ const Motto = styled.section`
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  line-height: normal;
 `;
 
 export default () => (
