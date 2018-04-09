@@ -8,10 +8,10 @@ import backgroundUrl from "../assets/sleepysquid_banner.png";
 import squid_blue from "../assets/squid_blue.svg";
 import webDev from "../assets/web_dev.png";
 import mobileDev from "../assets/mobile_dev.png";
-import clientArkOfSafety from "../assets/client_ark_of_safety.png";
-import clientKeyFoundry from "../assets/client_keyfoundry.png";
-import clientImagineCreativeWorks from "../assets/client_icw.png";
-import clientRealLifeInvestors from "../assets/real_life_investors.png";
+import arkOfSafety from "../assets/ark_of_safety.png";
+import keyFoundry from "../assets/keyfoundry.png";
+import pacingForTheCure from "../assets/pacingforthecure.png";
+import realLifeInvestors from "../assets/real_life_investors.png";
 import Navigation from "../components/navigation";
 
 const GradientBackground = styled.div`
@@ -172,36 +172,36 @@ export default () => (
         <Box width={1 / 4}>
           <a href="http://www.arkofsafetychristianchurch.com/" target="_blank">
             <img
-              src={clientArkOfSafety}
+              src={arkOfSafety}
               alt=""
-              style={{ height: `auto`, maxWidth: `250px`, width: `100%` }}
+              style={{ height: `auto`, maxHeight: `200px`, maxWidth: `200px`, width: `100%` }}
             />
           </a>
         </Box>
         <Box width={1 / 4}>
           <a href="http://keyfoundryllc.com/" target="_blank">
             <img
-              src={clientKeyFoundry}
+              src={keyFoundry}
               alt=""
-              style={{ height: `auto`, maxWidth: `250px`, width: `100%` }}
+              style={{ height: `auto`, maxHeight: `200px`, maxWidth: `200px`, width: `100%` }}
             />
           </a>
         </Box>
         <Box width={1 / 4}>
-          <a href="http://www.icwks.com/" target="_blank">
+          <a href="https://pacingforthecure.org/" target="_blank">
             <img
-              src={clientImagineCreativeWorks}
+              src={pacingForTheCure}
               alt=""
-              style={{ height: `auto`, maxWidth: `250px`, width: `100%` }}
+              style={{ height: `auto`, maxHeight: `200px`, maxWidth: `200px`, width: `100%` }}
             />
           </a>
         </Box>
         <Box width={1 / 4}>
           <a href="#" target="_blank">
             <img
-              src={clientRealLifeInvestors}
+              src={realLifeInvestors}
               alt=""
-              style={{ height: `auto`, maxWidth: `250px`, width: `100%` }}
+              style={{ height: `auto`, maxHeight: `200px`, maxWidth: `200px`, width: `100%` }}
             />
           </a>
         </Box>
